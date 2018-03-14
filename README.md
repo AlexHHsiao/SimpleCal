@@ -4,7 +4,7 @@ Some notes
 
 // use to add touch event for label
 
-`
+`code()
 -(void)addGestureRecogniser:(UILabel *)touchLabel{
     
     UITapGestureRecognizer *singleTap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(selectDay:)];
